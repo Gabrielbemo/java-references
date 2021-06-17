@@ -7,5 +7,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator();
         calculator.sumTwoNumbers();
         calculator.subtractTwoNumbers();
+        calculator.multiplyTwoNumbers(2, 2);
     }
 }
