@@ -14,6 +14,25 @@ public class Calculator {
     }
 
     public double splitTwoNumber(double number1, double number2) {
-        return number1 / number2;
+        if (number2 != 0) {
+            return number1 / number2;
+        }
+        return 0;
+    }
+
+    public void sumArray(int[] numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println(sum);
+    }
+
+    public void sumVarArgs(int... numbers) {
+        int sum = 0;
+        for (int num : numbers) {
+            sum += num;
+        }
+        System.out.println(sum);
     }
 }
